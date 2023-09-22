@@ -18,7 +18,8 @@ int main(){
           for(int j=0; j<p; j++) cin >> matriksB[i][j];
      }
 
-     // Membuat Matriks Hasil Perkalian (Matriks C) dengan ukuran m x p     int matriksC[m][p];
+     // Membuat Matriks Hasil Perkalian (Matriks C) dengan ukuran m x p
+     int matriksC[m][p];
      // Beri Nilai untuk Semua elemen di Matriks C Berdasarkan Konsep Perkalian Sekaligus Menampilkan Matriks C
      for(int i=0; i<m; i++){
           for(int j=0; j<p; j++){
